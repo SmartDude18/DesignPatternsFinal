@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "p1LVCi2uLmA=",
+  "dgSpecHash": "bYB220063o0=",
   "success": true,
   "projectFilePath": "C:\\Users\\acraighastings\\Documents\\GitHub\\DesignPatternsFinal\\DesignPatternsFinal\\DesignPatternsFinal.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\acraighastings\\.nuget\\packages\\figgle\\0.6.6\\figgle.0.6.6.nupkg.sha512",
+    "C:\\Users\\acraighastings\\.nuget\\packages\\figgle.fonts\\0.6.6\\figgle.fonts.0.6.6.nupkg.sha512"
+  ],
   "logs": []
 }
