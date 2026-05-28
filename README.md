@@ -21,3 +21,7 @@ It works by using the DateTime package to get the current time and date (shockin
 # Observer 
 
 This is within both the WorldClock Class and the Alarm interface. The Alarm instances are the observers and the singleton WorldClock is the sender. This is done to let the alarms handle themselves, given they are gonna have different processes for doing so. This would also in theory allow for alarms that are not strictly text based, though they would not be as such for the application given.
+
+# bridge 
+
+This is within the Alarm and timezone systems. The Mix and match capabilties expand the options for alarms. The base alarm implementations allow for various displays (which is shown as a base display and ascii display, but could be expanded to other styles.), and the internal implementations allow for basing on different timezones. (yes I know this seems uneeded, but I have family in other continents, and it becomes such a problem to keep track of the time gap)
