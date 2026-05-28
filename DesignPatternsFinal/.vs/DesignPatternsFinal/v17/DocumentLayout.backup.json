@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\acraighastings\\Documents\\GitHub\\DesignPatternsFinal\\DesignPatternsFinal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E67301C-7613-4E2B-B9D1-CC704C797D9E}|DesignPatternsFinal.csproj|c:\\users\\acraighastings\\documents\\github\\designpatternsfinal\\designpatternsfinal\\models\\worldclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E67301C-7613-4E2B-B9D1-CC704C797D9E}|DesignPatternsFinal.csproj|solutionrelative:models\\worldclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E67301C-7613-4E2B-B9D1-CC704C797D9E}|DesignPatternsFinal.csproj|c:\\users\\acraighastings\\documents\\github\\designpatternsfinal\\designpatternsfinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E67301C-7613-4E2B-B9D1-CC704C797D9E}|DesignPatternsFinal.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WorldClock.cs",
+              "DocumentMoniker": "C:\\Users\\acraighastings\\Documents\\GitHub\\DesignPatternsFinal\\DesignPatternsFinal\\Models\\WorldClock.cs",
+              "RelativeDocumentMoniker": "Models\\WorldClock.cs",
+              "ToolTip": "C:\\Users\\acraighastings\\Documents\\GitHub\\DesignPatternsFinal\\DesignPatternsFinal\\Models\\WorldClock.cs",
+              "RelativeToolTip": "Models\\WorldClock.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T15:33:00.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\acraighastings\\Documents\\GitHub\\DesignPatternsFinal\\DesignPatternsFinal\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

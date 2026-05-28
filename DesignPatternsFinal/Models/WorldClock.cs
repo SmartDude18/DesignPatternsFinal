@@ -9,14 +9,12 @@ namespace DesignPatternsFinal.Models
     public class WorldClock
     {
         //https://learn.microsoft.com/en-us/dotnet/api/system.datetime.now?view=netframework-4.8.1
-        private static WorldClock instance;
+        private static WorldClock? instance;
         private DateTime currentDateTime;
+        private Alarm[] recievers;
         //will have list of recievers when implementing observer
 
-        private WorldClock()
-        {
-            
-        }
+        private WorldClock(){}
 
         public WorldClock getInstance()
         {
@@ -34,6 +32,10 @@ namespace DesignPatternsFinal.Models
 
         private void newMinute()
         {
+            foreach(Alarm alarm in recievers)
+            {
+                alarm.newMinute(currentDateTime);
+            }
             //new minute has passed, ping the observers
         }
 

@@ -17,3 +17,7 @@ The Bridge Pattern
 
 This is the WorldClock Class, and is a singleton because it is the source of data, and eventually the sender for the observer pattern. 
 It works by using the DateTime package to get the current time and date (shocking, I know). This will use Task.delay to stay in time for the minutes, and be able to ping whenever the new minute hits.
+
+# Observer 
+
+This is within both the WorldClock Class and the Alarm interface. The Alarm instances are the observers and the singleton WorldClock is the sender. This is done to let the alarms handle themselves, given they are gonna have different processes for doing so. This would also in theory allow for alarms that are not strictly text based, though they would not be as such for the application given.
